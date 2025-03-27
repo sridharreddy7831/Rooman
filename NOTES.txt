@@ -57,6 +57,10 @@ ________________________________________________________________________________
 
 -> modular programming refers to the process of breaking a large, inwidely programmomg task into seprate, smaller, more manageable subtasks or modules.
 
+"Advantages":
+    -> Simplicity
+    -> Maintainability
+    -> 
 
 
 
