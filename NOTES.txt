@@ -60,7 +60,30 @@ ________________________________________________________________________________
 "Advantages":
     -> Simplicity
     -> Maintainability
-    -> 
+    -> Reusability
+    ->  
+
+
+"NUMPY"
+
+1d array: np.array([2,3,5,7,11,13])
+
+2d array: combination of two 1d array's     
+         np.array([[1,3,5,7,9],[2,4,6,8,10]])
+
+3d array: combination of two 2d array's     
+         np.array([[[1,3,],[2,4,]], 
+                  [[7,9],[8,10]]]) 
+
+
+Array Inspection: Numpy has the following attributes
+    -> ndarray.shape    ::  returns the tuple consisting of array dimensional
+    -> ndarray.ndim     ::  returns the number of array dimensions
+    -> ndarray.size     ::  this returns the total number of elements of an array
+    -> ndarray.dtype    ::  this returns the data type of array
+    -> ndarray.astype   ::  this changed the data type of an array
+
+
 
 
 
