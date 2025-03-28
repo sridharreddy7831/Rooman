@@ -85,5 +85,18 @@ Array Inspection: Numpy has the following attributes
 
 
 
+-----------------------------------------------------------28-03-2025---------------------------------------------------------
+______________________________________________________________________________________________________________________________
+
+
+
+Checking the size in the list
+        sys.getsizeof(s)                ::      printing the size of the list of one element
+        sys.getsizeof(s) * len(s)       ::      printing the size of the whole list 
+
+Checking the size using the array 
+        a.itemsize                      ::  printing the size of the array of one element
+        a.itemsize * a.size             ::  printing the size of the whole array
+
 
 
