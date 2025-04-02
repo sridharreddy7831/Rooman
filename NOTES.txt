@@ -65,7 +65,7 @@ ________________________________________________________________________________
 
 
 "NUMPY"
-
+    
 1d array: np.array([2,3,5,7,11,13])
 
 2d array: combination of two 1d array's     
@@ -97,6 +97,43 @@ Checking the size in the list
 Checking the size using the array 
         a.itemsize                      ::  printing the size of the array of one element
         a.itemsize * a.size             ::  printing the size of the whole array
+
+
+
+
+-----------------------------------------------------------02-04-2025---------------------------------------------------------
+----------------------------------------------------------- 7.30AM to 9.30AM ---------------------------------------------------------
+______________________________________________________________________________________________________________________________
+
+
+
+NumPy:
+
+---> Installation, Importing and checking version
+
+--->  Creating arrays ( Dimensions , from buffer, from iter , nditer)
+
+---> Basic checks (size ,shape , dtype,type)
+
+---> Slicing
+
+---> Intialization with functions (zeros ,ones ,full ,eye)
+
+---> Numerical Ranges (arange ,linspace ,logspace)
+
+---> Functions ( Copy, Reshape , View, Sort , Append ,Insert, Delete , Concatenate , Stack , hstack, Vstack, dstack , Split, Where, Search Sorted)
+
+---> Arithmetic Operations (Add,substract,multiply,divide,exp,sqrt,array_equal(a,b)
+,a==b,min,max,std,var,sum,median,mean)
+
+---> Random Module (randint, rand , Choice ,shuffle )
+
+---> Universal Functions ( Unique, log , sin, cos , radians , degrees , rad2deg, argmin ,argmax , Flatten, astype, Reshape(-1)(1D))
+
+
+
+
+
 
 
 
