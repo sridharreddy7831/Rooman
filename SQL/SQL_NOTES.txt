@@ -1,0 +1,16 @@
+----------------------------------------------------14-03-2025------------------------------------
+______________________________________________________________________________________________________________________________
+
+Data: Data refers to raw facts, figures or sysmbols that can be processed to generate meaningful information. Data can be structured, semi-structured or unstructured.
+
+Database: A Database is an organized collection of data that allows easy access, Management and updating. It ensures data consistency, integrity and security
+
+Basic Operations Performed in the Database are: CRUD Operations 
+        -> Create / Insert
+        -> Read / Retrive
+        -> Update / Modify
+        -> Delete / Drop
+
+
+Database Management System: DBMS is a software that enables users to store, retrive, and manage data in a structured way.
+Example: MYSQL, PostgreSQL, MMongoDB, and oracle

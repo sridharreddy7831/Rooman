@@ -123,8 +123,7 @@ NumPy:
 
 ---> Functions ( Copy, Reshape , View, Sort , Append ,Insert, Delete , Concatenate , Stack , hstack, Vstack, dstack , Split, Where, Search Sorted)
 
----> Arithmetic Operations (Add,substract,multiply,divide,exp,sqrt,array_equal(a,b)
-,a==b,min,max,std,var,sum,median,mean)
+---> Arithmetic Operations (Add,substract,multiply,divide,exp,sqrt,array_equal(a,b),a==b,min,max,std,var,sum,median,mean)
 
 ---> Random Module (randint, rand , Choice ,shuffle )
 
@@ -133,7 +132,18 @@ NumPy:
 
 
 
+-----------------------------------------------------------03-04-2025---------------------------------------------------------
+----------------------------------------------------------- 7.30AM to 9.30AM ---------------------------------------------------------
 
 
 
 
+Pandas:
+
+
+head    ::  Display the first rows of data
+tail    ::  Display the last rows of the data
+
+
+-----------------------------------------------------------04-04-2025---------------------------------------------------------
+----------------------------------------------------------- 7.30AM to 9.30AM ---------------------------------------------------------
