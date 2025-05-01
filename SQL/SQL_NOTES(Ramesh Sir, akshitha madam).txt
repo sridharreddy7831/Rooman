@@ -1,0 +1,49 @@
+----------------------------------------------------14-03-2025------------------------------------
+______________________________________________________________________________________________________________________________
+
+Data: Data refers to raw facts, figures or sysmbols that can be processed to generate meaningful information. Data can be structured, semi-structured or unstructured.
+
+Database: A Database is an organized collection of data that allows easy access, Management and updating. It ensures data consistency, integrity and security
+
+Basic Operations Performed in the Database are: CRUD Operations 
+        -> Create / Insert
+        -> Read / Retrive
+        -> Update / Modify
+        -> Delete / Drop
+
+
+Database Management System: DBMS is a software that enables users to store, retrive, and manage data in a structured way.
+Example: MYSQL, PostgreSQL, MMongoDB, and oracle
+
+
+-------------------------------------------------------------16-04-2025----------------------------------------------
+______________________________________________________________________________________________________________________________
+
+
+
+
+SQL
+
+Data: Data means raw facts which describe the attributes or properties of an entity (entity is also called as object), if it is invalid or valid data
+
+DataBase: it is one median to store the data in the organized manner or Systematic      
+        -> The functionalites of the database are read, write , update, delete 
+        
+DBMD (Data Base Management System):
+                        -> it is the software to store the data
+                        -> examples MYSQL Workbench, Oracle, SQL Server
+
+
+Hiericial Model         :: It is the first model developed, it is the tree like structure. 
+                           The Advantagesare it is simple and easily travels from onr node to another node, 
+                           and if there is one change in the parent node and then there is also change in the child node, 
+                           and the main disadvantage is if the parent node is deleted then the child node also deleted.
+
+Network Model           :: It is the extension of the hiericial model, in this model we will connect to each other.
+                           the advantage is it is connected to all nodes
+                           the disadvantage is it is complex
+                                
+Relational Model        :: It is developed by the EF Cord, and there we are storing the data in the tables
+
+Document Model
+Object Model

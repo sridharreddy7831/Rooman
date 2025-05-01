@@ -153,3 +153,323 @@ visualization
     matplotlib
     seaborn
     plotly
+
+
+
+----------------------------------------------------10-04-2025------------------------------------
+______________________________________________________________________________________________________________________________
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Statistics~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Statistics: collection and analysing of data
+
+
+stats   -> Descriptive
+        -> Inferential
+
+
+Descriptive:
+            -> Central Tendancy
+            -> Measures of Dispersion
+            -> Distribution:
+                            -> Normal
+                            -> Standard Normal
+                            -> Bernoulies
+                            -> Paretos
+
+Inferential:
+            -> Z-test
+            -> T-test
+            -> ANOVA
+            -> CMI SQUARE
+            
+
+ 
+
+
+ Data:
+        -> Quantitative Data or Numerical Data  
+        -> Qualitative Data or Categorical Data
+
+
+        Numerical Data:
+                        -> Discrete     :: only Integer Type values  (Eg: 1,2,3,4,5)
+                        -> Continous    :: integer and float values  (eg: 1.2, 2.3, 3.4, 4.5)
+                        -> Interval
+                        -> Ratios
+
+        Categorical Data:
+                        -> Nominal
+                        -> Ordinal
+
+
+        
+Central tendency:
+                -> Mean
+                -> Median
+                -> Mode
+
+Measures of Dispersion:
+                        -> Range        :: Difference Between Maximum and Minimun is called Range
+                        -> Variance     :: for population σ² = Σ(xi - μ)² / N
+                                                    N = total number of items in population
+                                           for sample σ² = Σ(xi - μ)² / (n-1)
+                                            
+
+
+
+                        Σ(xi - μ)² / N     (Average of the squared differences from the mean)  
+                        -> Standard Deviation :: Square root of variance
+
+
+Example: 
+    n = 1 2 3 4 5
+    mean = 3
+    Variance: 0.8 0.2 0 0.2 0.8
+    Standard Deviation: 0.8944
+
+
+
+----------------------------------------------------11-04-2025------------------------------------
+______________________________________________________________________________________________________________________________
+
+
+Sample:
+        -> Random Sampling          :: Randomly select items from population
+        -> Stratified Sampling      :: Divide population into subgroups and randomly select items from each subgroup
+        -> Systematic Sampling      :: Select items from population at regular intervals
+        -> Cluster Sampling         :: Divide population into clusters and randomly select clusters
+
+
+        
+Types of Distributions:
+                    -> Normal Distribution
+                    -> Standard Normal Distribution
+                    -> Log Normal Distribution
+                    -> Uniform Distribution
+                    -> pareto Distribution
+                    -> Bernoulies Distribution
+
+         Normal Distribution:   1) Mean = mode = median
+                                2) Bell Shaped Curve
+                                3) Empirical Formula : 67.5-95-99.7 rule 
+
+                    -> To check the distribution is normal it must be skew = 0 and Kurtosis = 3
+
+        Log Normal Distribution:
+                                1) The shape is Right skew
+
+
+
+
+PDF, PMF, CMF
+Co relation, co variance
+outliers, Z score
+
+
+Probability Mass Function (PMF):
+                                -> It works with discrete values
+                                -> Gives the probability that a discrete random variable is exactly equal to some value.
+
+
+Probability Density Function (PDF):
+
+
+Cumulative Distribution Function (CDF):
+                                -> It gives the probability that a random variable is less than or equal to some value.
+
+
+----------------------------------------------------12-04-2025------------------------------------
+______________________________________________________________________________________________________________________________
+
+Skewness:
+        -> Measures the symmetry of the probability distribution of a real-valued random variable.
+    Tpyes of Skewness: 
+                -> No Skewness      :: Mean = Median = mode   (range is -1 to 1)
+                -> Right Skewness   :: Mean ≤ Median ≤ mode   (range is -1 to -0.5 :: heavyly :: -0.5 to 0 :: lightly)
+                -> Left Skewness    :: Mean ≥ Median ≥ mode   (range is 0.5 to 1 :: heavyly :: 0 to 0.5 :: lightly )  
+
+    ~ to decrease the outlier of the data in the distribution we use the following methods:
+            -> if the distribution is Normal or Gausian we need to do the mean for the outliers 
+            -> if the distribution of Skewness id left or right then we need to use the median for the outliers
+
+
+
+
+Centeral Limit Theorem (CLT):
+                            -> The right Skew or left skew distributions will be converted to normal distribution.
+                                                        or      
+                            -> if it is not the normal distribution then it will convert to the normal distribution
+
+                            -> for population take the samples of 30 or more
+
+Kurtosis: measure of tail 
+        -> meso Kurtosis    :: the value is equal to 3
+        -> Leptokurtosis    :: the value is greater than 3
+        -> Platykurtosis    :: the value is less than 3
+
+
+
+~ variables == columns == attributes == features
+
+
+CoVariance: it tells the relationship between the two variables
+           -> the range is -infinity to +infinity 
+        
+        Population Covariance Formula: σₓᵧ = Σ[(xᵢ - μₓ)(yᵢ - μᵧ)] / N
+                                Where:
+                                        σₓᵧ = population covariance
+                                        xᵢ, yᵢ = individual data points
+                                        μₓ, μᵧ = population means
+                                        N = total population size
+
+        Sample Covariance Formula: sₓᵧ = Σ[(xᵢ - x̄)(yᵢ - ȳ)] / (n-1)
+                                Where:
+                                        sₓᵧ = sample covariance
+                                        x̄, ȳ = sample means
+                                        n = sample size
+
+
+CoRelation: 
+        -> it gives the strength and direction 
+        -> range of -1 to 1
+        -> if the value is greater than 0 then it is High Corelation
+        -> if the value is less than 0 then it is corelation
+
+        Population Correlation (ρ): ρₓᵧ = σₓᵧ / (σₓ × σᵧ)
+                        Where:
+                                σₓᵧ = population covariance
+                                σₓ = population standard deviation of X
+                                σᵧ = population standard deviation of Y
+
+        Sample Correlation (r): rₓᵧ = sₓᵧ / (sₓ × sᵧ)
+                        Where:
+                                sₓᵧ = sample covariance
+                                sₓ = sample standard deviation of X
+                                sᵧ = sample standard deviation of Y
+
+
+Distributions: It is used for continous values
+        -> Probability Density Function (PDF)
+        -> Probability Mass Function (PMF)
+        -> Cumulative Distribution Function (CDF)
+        
+        
+        Probability Density Function (PDF):
+                                        -> it gives the probability of the value in the continuous random variable
+                                         
+        Cumulative Distribution Function (CDF)
+                                        -> it gives the probability of the value less than or equal to the value in the continuous random
+                                        -> CDF is integration of 
+        
+
+~ PDF is the derivative of CDF and CDF is the integral of PDF
+
+
+
+-----------------------------------------------------------------14-04-2025--------------------------------------------------
+______________________________________________________________________________________________________________________________
+
+
+Outliers:
+        -> It is far from the remaining values
+
+To find the outliers there are
+                        -> Z score
+                        -> Inter quartile Range
+                        -> Scatter
+                        -> Box plot
+
+Z Score and IQR is used to replace the outliers and Scater and Box plot are used to check the Outliers
+
+Box Plot:
+        -> It is used to find the outliers
+        -> It is used to find the median, first quartile and third quartile, min, max
+
+5 Number Summary: 0%, 25%, 50%, 75%, 100%
+-> 0% is the minimum value (Q0)
+-> 25% is the first quartile (Q1)
+-> 50% is the median (Q2)
+-> 75% is the third quartile (Q3)
+-> 100% is the maximum value (Q4)
+
+
+
+inter Quartile range (IQR): IQR = Q3 - Q1
+                        here Q1 is 25%
+                        and Q3 is 75%
+  
+                        for example take Q1 = 3, Q3 = 5 then IQR = Q3-Q1 => 5-3 ==> 2
+
+               => Lower_bound = Q1 - 1.5*IQR
+               => Upper_bound = Q3 + 1.5*IQR
+
+        >> The Range is between Lower_bound and Upper_bound
+        => if the value is greater than upper_bound then it is an outlier
+        => if the value is less than lower_bound then it is an outlier
+
+
+To implement the quartile in the pandasL: df['Column'] = quartile(0.25)
+
+
+
+
+Z-Score: z = (X - μ) / σ
+                >> z = z-score
+                >> X = individual data point
+                >> μ = mean of the population
+                >  σ = standard deviation of the population
+
+-> The range of the Z score is -3 to 3
+-> In pandas we use the ZScore Function
+
+
+Standard Normal Distribution:
+                        -> while we are appliying the ZScore to the distribution and making in the range between -3 to 3 then it is called the standard normal distribution
+                        -> if it is not between in the range then it is a Outlier
+
+
+
+Scaling:
+        -> Z Score (Standaization)            :: Same as Z Score formula      :: Range is -3 to 3 and also some we get the outliers 
+        -> Min max scater (Normalization)     :: Range is 0 to 1 (It is the fixed Range and all the values will comes under this range only)
+                                       
+                                N = (X - Xmin) / (Xmax - Xmin)
+                                >> N = normalized value 
+                                >> X = individual data point
+                                >> Xmin = minimum value in the dataset
+                                >> Xmax = maximum value in the dataset
+
+
+
+
+-----------------------------------------------------------------15-04-2025--------------------------------------------------
+______________________________________________________________________________________________________________________________
+
+While Doing a project we need to follow this steps
+        -> Understanding Business Case
+        -> Collecting Data
+        -> Basic Checks that 
+        -> EDA
+        -> Preprocessing (Null Values/Categorical ) 
+        -> Outliers
+        -> Balancing (Equal importance to the Categorical data )
+
+
+-----------------------------------------------------------------16-04-2025--------------------------------------------------
+______________________________________________________________________________________________________________________________
+
+for categorical data and discrite data we need to perform the countplot 
+
+
+AI Tools: 
+        Notebook LLM
+        Google AI Studio
+        Emily AI
+
+
+        
+
+-----------------------------------------------------------------01-05-2025--------------------------------------------------
+______________________________________________________________________________________________________________________________
+
+
